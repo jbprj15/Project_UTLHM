@@ -1,0 +1,33 @@
+.image1 {
+  width:270px;
+  height:194px;
+  position:absolute;
+  background: url('http://www.imgdirectmarketing.com/images/Mortgage460.jpg')
+}
+    .image1:hover {
+    border-radius:20%;
+    box-shadow: 0 10px 6px -6px grey;
+    }
+    .image1 {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    }
+    
+/*    
+    
+     <link href="/static/css/imghover.css" rel="stylesheet" type='text/css'>
+           <div class="image1">
+            
+<!--            <img src="/media/Foreigner_property_owners.jpg" alt="Mountain View" style="width:270px;height:194px;"><p></p>
+-->                    
+
+           </div>
+           <div clas="button1">
+            
+            <p align="center"><a class="btn btn-default" href="#" role="button">View more &raquo;</a></p>
+           </div>
+          
+        </div>
+        http://james-star.com/answers/en/css3-hover-effect-transitions-transformations-and-animations/
+     */
+     

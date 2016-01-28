@@ -1,0 +1,54 @@
+{% extends "source.html" %}
+
+    {% block header %}
+
+        <h2>Understanding the London housing market</h2>
+        <p> This page consist of infromation all about the London housing market to improve your own knowledge! </p>
+        
+    {% endblock %}
+    {% block body %}
+    
+      
+    {% block styles %}
+       <style>
+        body{
+            background: url("/media/london_bg_bw_1.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;            
+        }
+      </style>
+    {% endblock %}
+        
+         <div class="row" style="margin-top:20px;background-color:rgb(234, 234, 234);border-radius: 20px;">
+         
+        <div class="col-md-3">
+          <h4 align="center" >Foreigner property owners</h4>
+<!--          <p align="center"> ENTER TEXT HERE </p>-->          
+          <img src="/media/Foreigner_property_owners.jpg" alt="Mountain View" style="width:270px;height:194px;"><p></p>
+          <p align="center"><a class="btn btn-default" href="#" role="button">View more &raquo;</a></p>
+        </div>
+
+        <div class="col-md-3">
+          <h4 align="center" >Population within London</h4>
+<!--          <p align="center"> ENTER TEXT HERE </p>-->          
+          <img src="/media/population_within_longond.jpg" alt="Mountain View" style="width:270px;height:194px;"><p></p>
+          <p align="center"><a class="btn btn-default" href="#" role="button">View more &raquo;</a></p>
+       </div>
+        
+        <div class="col-md-3">
+          <h4 align="center" >Average house prices</h4>
+<!--          <p align="center"> ENTER TEXT HERE </p>-->          
+          <img src="/media/average_house_prices.jpg" alt="Mountain View" style="width:270px;height:194px;"><p></p>
+          <p align="center"><a class="btn btn-default" href="#" role="button">View more &raquo;</a></p>
+        </div>
+        
+         <div class="col-md-3">
+          <h4 align="center" >Crimes in london</h4>  <!-- Mortgage interest rates -->
+<!--          <p align="center"> ENTER TEXT HERE </p>-->
+          <img src="http://comps.canstockphoto.com/can-stock-photo_csp7249526.jpg" alt="Mountain View" style="width:270px;height:194px;"><p></p>
+      <!--<img src="/media/Mortgage_interest_rates.jpg" alt="Mountain View" style="width:270px;height:194px;"><p></p>-->
+          <p align="center"><a class="btn btn-default" href="#" role="button">View more &raquo;</a></p>
+        </div>
+    {% endblock %}
